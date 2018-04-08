@@ -9,6 +9,7 @@ An Electron JS App which converts video to different formats.
 ##### Redux: https://redux.js.org/
 ##### Redux-Thunk: https://github.com/gaearon/redux-thunk
 ##### React Router v4 : https://www.npmjs.com/package/react-router
+##### Materialize : http://materializecss.com/
 
 ## Demonstration : (click to play)
 
