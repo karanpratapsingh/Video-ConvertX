@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Video ConvertX</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>
+    body {
+
+      -ms-overflow-style: scrollbar;
+      -webkit-app-region: drag;
+    }
+
+    input[type="submit"],
+    input[type="reset"],
+    input[type="button"],
+    input[type="text"],
+    button,
+    textarea {
+      -webkit-app-region: no-drag;
+    }
+
+    .not-draggable {
+
+      -webkit-app-region: no-drag;
+    }
+
+    .video-select-screen h4,
+    .video-select-screen-small h4 {
+
+      text-align: center;
+    }
+
+    .roundButtons {
+
+      border-radius: 20px;
+    }
+
+    .video-list .collection-item {
+
+      background: #101010;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      border-bottom: 1px solid #ffffff !important;
+    }
+
+    .convert-panel {
+
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .video-list {
+
+      height: 50vh;
+      border-radius: 20px;
+    }
+
+    .video-list .collection-item .btn {
+
+      margin-left: 10px;
+    }
+
+    .hovering {
+
+      border: 3px dashed black !important;
+    }
+
+    .dropzone {
+
+      width: 90%;
+      height: 90%;
+      border-width: 2px;
+      border-color: rgb(255, 255, 255);
+      border-style: dashed;
+      border-radius: 20px;
+      margin: auto;
+      display: flex;
+      -webkit-app-region: no-drag;
+      justify-content: center;
+    }
+
+    .dropzone-active {
+
+      border-style: solid;
+      background-color: #4CAF50;
+    }
+
+    .dropzone-reject {
+
+      border-style: solid;
+      background-color: #FF5252;
+    }
+
+    .video-select-screen {
+
+      color: white;
+      background: #101010;
+      padding-top: 8vh;
+      height: 100vh;
+      width: 100vw;
+    }
+
+    .video-select-screen-small {
+
+      color: white;
+      background: #101010;
+      height: 25vh;
+    }
+
+    .container {
+
+      background: #101010;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      width: 100vw;
+      padding: 10vh 10vw;
+    }
+
+    .drop-message {
+
+      display: flex;
+      align-self: center;
+      width: 50%;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root"></div>
+</body>
+<script src="http://localhost:4172/bundle.js"></script>
+
+</html>
